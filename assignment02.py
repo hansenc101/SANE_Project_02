@@ -82,7 +82,7 @@ def Quit():
 
 
 App = QtWidgets.QApplication([]) # Initialize the application
-UI=uic.loadUi("assignment02_3.ui") # Load in specific UI from disk
+UI=uic.loadUi("assignment02.ui") # Load in specific UI from disk
 
 UI.actionQuit.triggered.connect(Quit) # Connect Quit() method to actionQuit, and run when triggered
 
